@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/d5e979a7d0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Air Studio</title>
   </head>
   <body>
     <section>
+      <input type="checkbox" id="check"/>
       <header>
         <h2><a href="#" class="logo">Air Studio</a></h2>
         <div class="navigation">
@@ -16,8 +18,12 @@
           <a href="#">About Us</a>
           <a href="#">Work</a>
           <a href="#">Info</a>
+          <a href="#" id="getStarted" class="cta">Get Started</a>
         </div>
-        <a href="#" class="cta">Get Started</a>
+        <label for="check">
+          <i class="fas fa-bars menu-button"></i>
+          <i class="fas fa-times close-button"></i>
+        </label>
       </header>
       <div class="content">
         <div class="info">
@@ -31,7 +37,7 @@
             alias quod dolores sit obcaecati quia. Rem magnam, iure qui dolores
             aliquam ex!
           </p>
-          <a href="#" class="cta">Learn More</a>
+          <a href="#" id="learnMore" class="cta">Learn More</a>
         </div>
       </div>
     </section>
